@@ -1,24 +1,9 @@
-function changeColor(){
-    document.getElementById("text").style.color = "red";
-
-}
-
-let count = 0;
-function increaseCount(){
-    count++;
-    document.getElementById("counter").innerText = count; 
-    if(count>4){
-        count = 0;
-    }
-}
-function herasuCount(){
-    count--;
-    document.getElementById("counter").innerText = count; 
+function errorinput(){
+    console.log(document.getElementById("month").value)
+    console.log(document.getElementById("day").value)
     
+    const month = document.getElementById("month").value
+    const day = document.getElementById("day").value
+
+    console.log("month;",month,"day;",day)
 }
-
-
-
-//document.getElementById("text").style.color = "red";
-//これは、ドキュメントの中の「text」というIDをもっている
-タグのスタイルを赤にしてください
